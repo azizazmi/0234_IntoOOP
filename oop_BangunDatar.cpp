@@ -6,4 +6,11 @@ class bangunDatar {
         float panjang, lebar;
     public:
         float luas;
+
+        void input() {
+            cout << "Masukkan panjangnya = ";
+            cin >> panjang;
+            cout << "Masukkan lebarnya = ";
+            cin >> lebar;
+        }
 };
